@@ -1,0 +1,86 @@
+fontfamily='serif'
+#b20710
+#221f1f
+컬럼 추가 : 년도, rating 구간화, 시간, 시즌
+
+type 퍼센트는 얼마나 되는지
+타입별 감독 작품개수
+타입별 좋아하는 나라는?
+타입별 출시 년도
+타입별 연령 비율
+
+감독별 출시 작품개수
+감독별 출시 기간 평균
+Frank Capra
+John Ford
+Frank Capra, Anatole Litvak
+William Wyler
+Frank Capra, John Huston, Hugh Stewart, Roy Boulting, Anthony Veiller
+
+Rajiv Chilaka	
+Raúl Campos, Jan Suter	
+Suhas Kadav	
+Marcus Raboy	
+Jay Karas
+
+감독별 연령 
+
+나라별 출시되는 양
+나라별 선호 연령
+
+
+연령별 영상 길이
+
+워드 클라우드
+
+
+show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added',
+       'release_year', 'rating', 'duration', 'listed_in', 'description',
+       'date_added_year', 'release_period', 'movie_duration', 'rate'],
+
+* Q1 : 타입별 퍼센트는 얼마나 되는가?
+A1 : 영화가 전체 69.62%를 차지하고 TV Show는 30.38%를 차지하여,  
+     기간내에 영화컨텐츠가 더 많이 넷플릭스에 추가되었다.
+#### Q2 : 타입별 감독 작품개수는?
+A2 : 영화는 Rajiv Chilaka, Raúl Campos, Jan Suter,Suhas Kadav, Marcus Raboy, Jay Karas 감독순으로   
+작품을 많이 개봉하였고,  
+TV Show는 Alastair Fothergill, Hsu Fu-chun, Iginio Straffi, Ken Burns, Rob Seidenglanz 감독순으로   
+작품을 많이 개봉하였다.
+ Q3 :  어느 국가에서 컨텐츠를 많이 제작하였나?
+A3 : 영화 컨텐츠일 경우에는 영어권 국가들이 많이 제작하고있고,  
+TV Show는 영어권 국가외에도 동아시아국가들이 많이 제작하여 공급하고 있다.
+ Q4 : 타입별 날짜에 따라 넷플릭스에 추가된 컨텐츠의 양은?
+A4 : OTT 시장이 활성화되기 시작한 2016년이후부터 증가 추세를 보이다가,  
+2019년에 가장 많은 컨텐츠들이 넷플릭스로 유입되었다.
+Q5 : 타입별 출시 연령 비율은 어떻게 되는가?
+A5 : 영화 컨텐츠일 경우 성인등급이 58.9%, 학생들이관람가능한 등급은 31.2%, 전체관람가는 9.9%으로   
+OTT는 유료 서비스이기때문에 성인분들의 시청률이 높아서 주로 성인등급의 컨텐츠가 많은것으로 추정된다.  
+TV Show 컨텐츠일 경우 성인등급이 58.7%, 학생들이관람가능한 등급은 27.4%, 전체관람가는 13.9%으로  
+영화 컨텐츠와 마찬가지로 성인등급의 컨텐츠가 주로 제작된다.
+Q6 : 영화컨텐츠를 많이 제작한 감독들중 개봉부터 넷플릭스 출시 평균 기간은 ?
+A6 : 대부분 감독들이 기간을 정해놓고 넷플릭스에 출시 하지는 않는다.  
+가장 긴 기간으로는 영화 개봉하고 75년 후 넷플릭스에 합류한 작품도 존재한다.
+ Q7 : 가장 많은 제작 국가 별 제작 등급은?
+A7 : 인도를 제외한 국가에서는 성인등급의 영상을 주로 만들고 그다음으로 학생, 어린이순으로 만들지만,  
+인도는 학생등급 컨텐츠를 제일 많이 만드는것으로 보아 자극적인 컨텐츠보다는   
+아이들과 같이 볼수 있는 컨텐츠를 선호한다.
+ Q8 : 연령별 영상길이는 어떤가?
+A8 : 성인영화의 경우에는 다른 영화들보다는 자극적인 콘텐츠에 집중되어 있는 경향이 있어,  
+스토리부분에서 완성도가 높지 못해 런닝타임이 학생등급보다는 짧고   
+어린이용 영화인 경우는 수위조절에 신경써야되고 아이들이 아직 오래 집중을 하지 못하기 때문에  
+다른 등급 영화에 비해 제일 런닝타임이 짧다.
+
+
+PG-13 : 13세이상 관람가
+TV-MA : 청불
+PG : 전체 관람가
+TV-14 : 14세이상 관람가
+TV-PG : 청불
+TV-Y : 유아 대상
+TV-Y7 : 7세이상 관람가
+R : 청불
+TV-G : 전체관람가
+G : 전체관람가
+NC-17 : 청불
+TV-Y7-FV : 7세이상 관람가
+UR : 청불
